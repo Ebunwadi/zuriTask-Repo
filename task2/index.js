@@ -3,7 +3,6 @@ class CascadingPalindrome {
       if (input.length === 0) return "input must not be empty!";
       if (typeof input !== "string") return "input type must be a string!";
       const arr = input.toLowerCase().split(" "); // convert the string input into an array with every word in lowercase
-      console.log(arr);
       let result = "";
       for (let word of arr) { // loop through the array
         const re = /[\W_]/g; // regex to check for special characters

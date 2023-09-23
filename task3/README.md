@@ -24,6 +24,6 @@ The API has these endpoints.
 
 you can clone this repo or download the zip file
 
-run ` npm install ` or ` yarn install ` to install dependencies and ` npm start ` to start the app.
+run ` npm install ` or ` yarn install ` to install dependencies and ` npm start ` to start the app. Make sure you `CD` into `task3` folder
 
 To test the app, run  ` npm run test ` which will trigger `mocha` to run the tests in the test folder.

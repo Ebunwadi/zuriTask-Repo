@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
-  res.send("home route");
+  res.redirect('https://documenter.getpostman.com/view/10653175/2s9YJW4R6G')
 });
 
 app.use("/auth", auth);

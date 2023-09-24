@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
-  res.redirect('https://documenter.getpostman.com/view/10653175/2s9YJW4R6G')
+  res.send('welcome to the token authentication system, please visit https://github.com/Ebunwadi/zuriTask-Repo/edit/main/task3 for a complete description of the app')
 });
 
 app.use("/auth", auth);

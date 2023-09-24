@@ -6,7 +6,7 @@ This is an auth system where users obtain an auth token by sending their usernam
 
 [link to the api documentation with postman](https://documenter.getpostman.com/view/10653175/2s9YJW4R6G)
 
-
+#
 [link to the hosted api for consumption](https://ebusman-authapi.onrender.com)
 
 ## Routes
